@@ -100,6 +100,12 @@ In order to complete this assignment, you must do the following:
 5.  Submit to Coursera the URL to your GitHub repository that contains
     the completed R code for the assignment.
 
+How to run the script (cachematrix.R)
+1. source("assessment2.R")
+2. m <- makeCacheMatrix( matrix(c(1,2,12,13), nrow = 2, ncol = 2) );
+3. cacheSolve(m)
+
 ### Grading
 
 This assignment will be graded via peer assessment.
+
